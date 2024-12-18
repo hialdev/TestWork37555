@@ -109,7 +109,7 @@ jQuery(document).ready(function($){
                 response.data.forEach(function(city) {
                     rows += `<tr>
                                 <td>${city.country}</td>
-                                <td>city.city</td>
+                                <td>${city.city}</td>
                                 <td>
                                     <div class="flex items-center gap-2 p-0">
                                         <div>
