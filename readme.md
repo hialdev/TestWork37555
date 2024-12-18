@@ -56,7 +56,6 @@ To use this template:
 - Make sure the **OpenWeatherMap API key** is correctly set in the widget for fetching weather data.
 - The weather data is updated based on the city’s latitude and longitude stored in the post’s meta fields.
 
-## Future Enhancements
+## Contact
 
-- Add more custom fields to the "Cities" CPT as necessary.
-- Improve the UI/UX for the weather table page with additional features like sorting, pagination, etc.
+- Muhammad Nur Alif (al.developer12@gmail.com - mna.official12@gmail.com)
