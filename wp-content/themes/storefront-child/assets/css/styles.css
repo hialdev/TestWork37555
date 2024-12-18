@@ -1,0 +1,20 @@
+header.entry-header {
+  display: none !important;
+}
+
+.image-logo img {
+  max-height: 3em !important;
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+}
+
+.hentry .entry-content a {
+  text-decoration: none !important;
+}
+
+.al-nav .al-primary-navigation .menu {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  flex-direction: row;
+}/*# sourceMappingURL=styles.css.map */

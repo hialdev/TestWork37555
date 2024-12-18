@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    https://hiamalif.com/storefront-child
+ Description:  Child theme for Storefront
+ Author:       Muhammad Nur Alif
+ Template:     storefront
+ Version:      1.0.0
+*/ 
+.image-logo .custom-logo {
+  height: 3em !important;
+  max-height: 3em !important;
+}/*# sourceMappingURL=style.css.map */
