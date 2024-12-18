@@ -69,7 +69,7 @@ do_action('before_campgrounds');
         foreach ($countries as $country) {
             ?>
             <div class="flex items-center gap-4 mb-5">
-                <img src="http://127.0.0.1/TestWork37555/wp-content/uploads/2024/12/flag-of-indonesia.webp" alt="<?php echo esc_html($country->post_title); ?>" class="block rounded-lg shadow-lg" style="height: 3em;">
+                <img src="<?php echo esc_url(get_the_post_thumbnail_url($country->ID, 'thumbnail')) ?>" alt="<?php echo esc_html($country->post_title); ?>" class="block rounded-lg shadow-lg" style="height: 3em;">
                 <h2 class="font-semibold text-xl"><?php echo esc_html($country->post_title); ?></h2>
             </div>
             <?php
@@ -95,7 +95,7 @@ do_action('before_campgrounds');
                 <div class="card mb-5">
                     <div class="card-body bg-slate-50 rounded-2xl">
                         <div class="flex items-center gap-4 mb-5">
-                            <img src="http://127.0.0.1/TestWork37555/wp-content/uploads/2024/12/jakarta-amazing-tour.jpg" alt="<?php echo esc_html($city->post_title); ?>" class="block rounded-lg shadow-lg" style="height: 3em;">
+                            <img src="<?php echo esc_url(get_the_post_thumbnail_url($city->ID, 'thumbnail')) ?>" alt="<?php echo esc_html($city->post_title); ?>" class="block rounded-lg shadow-lg" style="height: 3em;">
                             <h2 class="font-semibold text-xl"><?php echo esc_html($city->post_title); ?></h2>
                             <div class="flex items-center gap-2 p-0">
                                 <div>
@@ -128,7 +128,7 @@ do_action('before_campgrounds');
                                 ?>
                                 <div>
                                     <div class="card border p-4 rounded-lg shadow-sm">
-                                        <img src="http://127.0.0.1/TestWork37555/wp-content/uploads/2024/12/scott-goodwill-y8Ngwq34_Ak-unsplash-scaled.jpg" alt="<?php echo esc_html($camp->post_title); ?>" class="block rounded-xl aspect-video object-cover mb-2">
+                                        <img src="<?php echo esc_url(get_the_post_thumbnail_url($camp->ID, 'thumbnail')) ?>" alt="<?php echo esc_html($camp->post_title); ?>" class="block rounded-xl aspect-video object-cover mb-2">
                                         <h6 class="font-semibold text-lg"><?php echo esc_html($camp->post_title); ?></h6>
                                         <p class="text-sm line-clamp line-clamp-3 text-slate-500">Description for <?php echo esc_html($camp->post_title); ?>.</p>
                                         <div class="flex items-center gap-2 p-0">
