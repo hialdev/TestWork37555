@@ -1,7 +1,8 @@
 # Custom Template
 
 This project includes a custom template for WordPress with a structured approach to handling custom post types, custom taxonomies, custom widgets, meta boxes, and various front-end functionalities.
-
+Read For Code Documentation : https://github.com/hialdev/TestWork37555/wiki
+Try Live Site / Demo : https://freshcamp.hiamalif.com
 ## Folder Structure
 
 - **assets**: Contains all the assets (images, styles, scripts) used in the theme.
